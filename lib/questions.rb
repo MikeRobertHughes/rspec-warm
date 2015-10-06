@@ -3,7 +3,7 @@
 #There is an error in the following code.  Fix it!
 
 items = Array.new
-items.push{:a => "b", :c => "d"}
+items.push({:a => "b", :c => "d"})
 
 #-------------------------------------------------#
 #Question 2. Regular Ball Super Ball
@@ -22,6 +22,9 @@ items.push{:a => "b", :c => "d"}
 # ball1.ball_type  #=> "regular"
 # ball2.ball_type  #=> "super"
 
+class Ball
+end
+
 #-------------------------------------------------#
 #Question 3. Sum Array
 
@@ -30,6 +33,7 @@ items.push{:a => "b", :c => "d"}
 #then you should return 0.
 
 def sum_array(arr)
+
 end
 
 sum_array([]) == 0
@@ -46,6 +50,7 @@ sum_array([1, 5.2, 4, 0, -1]) == 9.2
 #http://www.rubycuts.com/enum-any
 
 def any?(arr, &block)
+
 end
 
 #--------------------------------------------------#
