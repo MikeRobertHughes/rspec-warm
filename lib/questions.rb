@@ -23,6 +23,12 @@ items.push({:a => "b", :c => "d"})
 # ball2.ball_type  #=> "super"
 
 class Ball
+
+  attr_reader :ball_type
+
+  def initialize(ball_type = "regular")
+    @ball_type = ball_type
+  end
 end
 
 #-------------------------------------------------#
